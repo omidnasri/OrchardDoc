@@ -22,8 +22,8 @@ The projects in the "Modules" folder are physically located under the "src\Orcha
 
 The Core modules are physically located under the "\src\Orchard.Web\Core" folder. 
 
-## What is a Module.txt file?
-This is the module manifest. It is a YAML-format file. You can learn more about module.txt in the [manifest files guide](manifest-files).
+## What is a `Module.txt` file?
+This is the module manifest. It is a YAML-format file. You can learn more about `Module.txt` in the [manifest files guide](manifest-files).
 
 ## What is the AdminMenu.cs file?
 This file has an implementation of the Orchard interface called `INavigationProvider`. It lets modules hook themselves into the admin menu in the backend. This is typically where you declare what links should your module inject into the Admin menu and what controller actions these links invoke.
@@ -79,7 +79,8 @@ Orchard comes with a solution folder called Tests. This hosts 2 types of tests:
 
 Running the unit tests is a matter of right clicking the solution or appropriate project and choose Run Unit Tests.
 
-> Note: this applies to writing tests for the modules that come with the standard source code distribution of Orchard. 
+!!! note
+    this applies to writing tests for the modules that come with the standard source code distribution of Orchard. 
 
 > To write code for your own modules you should work in your own separate project. You can use the [orchard scaffolding command](Command-line-scaffolding) `codegen moduletests <module-name>` to set up test projects for your own modules.
 

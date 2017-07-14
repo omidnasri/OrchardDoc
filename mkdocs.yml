@@ -3,6 +3,8 @@ theme_dir: rtd
 repo_url: https://github.com/OrchardCMS/OrchardDoc
 copyright: Copyright <a href="http://orchardproject.net">Orchard Project</a>. 
 google_analytics: ['UA-20757794-1', 'orchardproject.net']
+markdown_extensions:
+    - admonition
 pages:
 - Home: index.markdown
 - Getting Started:
@@ -77,10 +79,10 @@ pages:
     - Creating Types from code: Documentation/Creating-types-from-code.markdown
     - Creating 1-N and N-N Relations: Documentation/Creating-1-n-and-n-n-relations.markdown
     - Manifest Files for Modules and Themes: Documentation/Manifest-files.markdown
+    - Processing Client-Side Assets: Documentation/Processing-client-side-assets.markdown
     - Caching: Documentation/Caching.markdown
     - Custom Site Settings: Documentation/Adding-custom-settings.markdown
     - Web Api in Orchard: Documentation/WebApi-In-Orchard.markdown
-    - Assets Pipeline: Documentation/Assets-pipeline.markdown
 - Getting Started with Modules Course: 
     - Getting Started with Modules: Documentation/Getting-Started-with-Modules.markdown
     - Setting up for a lesson: Documentation/Setting-up-for-a-lesson.markdown
@@ -98,8 +100,8 @@ pages:
     - Accessing and Rendering Shapes: Documentation/Accessing-and-rendering-shapes.markdown
     - Alternates: Documentation/Alternates.markdown
     - Template File Syntax Guide: Documentation/Template-file-syntax-guide.markdown
+    - Processing Client-Side Assets: Documentation/Processing-client-side-assets.markdown
     - Packaging and Sharing Themes: Documentation/Packaging-and-sharing-themes.markdown
-    - Assets Pipeline: Documentation/Assets-pipeline.markdown
     - UI Guidelines for Theme Authors: Documentation/UI-guidelines-for-theme-authors.markdown
     - Customizing Orchard Using Designer Helper Tools: Documentation/Customizing-Orchard-using-Designer-Helper-Tools.markdown
 - Developer Tools and Guidelines:
@@ -122,6 +124,7 @@ pages:
     - Contributing Patches: Documentation/Contributing-patches.markdown
     - Contributors: Contributors.markdown
 - Release Notes:
+    - Orchard 1.10.2: Documentation/Orchard-1-10-2.Release-Notes.markdown
     - Orchard 1.10.1: Documentation/Orchard-1-10-1.Release-Notes.markdown
     - Orchard 1.10: Documentation/Orchard-1-10.Release-Notes.markdown
     - Orchard 1.9.3: Documentation/Orchard-1-9-3.Release-Notes.markdown

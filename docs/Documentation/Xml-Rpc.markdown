@@ -1,4 +1,5 @@
-> **ARCHIVED**
+!!! attention "ARCHIVED"
+    This chapter has not been updated for the current version of Orchard, and has been ARCHIVED.
 
 
 # Supported tools
@@ -86,4 +87,6 @@ Permission                                      | Anon. | Authentic. | Owner | A
 ----------------------------------------------- | ----- | ---------- | ----- | ------ | ------ | ------
 Create and manage contents through XML-RPC APIs | No    | No         | Yes   | Yes    | Yes    | Yes
 
-> **Note**: the specific rights for each content type and operation are also checked in addition to this right. If this right is not granted, none of the operations work
+!!! note
+    The specific rights for each content type and operation are also checked in addition to this right.
+    If this right is not granted, none of the operations work.

@@ -1,4 +1,4 @@
-> **Note:** This documentation site, like all of Orchard, is a [community effort](/Contributors). If you would like to contribute, please see [Documentation Style Guidelines](Documentation/Documentation-style-guidelines)
+> **Note:** This documentation site, like all of Orchard, is a [community effort](/Contributors). If you would like to contribute, please see [Documentation Style Guidelines](Documentation/Documentation-Style-Guidelines)
 and [Suggestions for New Topics](Documentation/Suggestions-for-New-Topics).
 
 ## Getting Started ##
@@ -67,8 +67,8 @@ and [Suggestions for New Topics](Documentation/Suggestions-for-New-Topics).
     * [Optimizing Server Performance of Orchard Applications](Documentation/Optimizing-Performance-of-Orchard-with-Shared-Hosting)
     * [What's New for Windows Azure in Orchard 1.7.1](Documentation/Whats-new-for-Windows-Azure-in-Orchard-1-7-1)
     * [Deploying Orchard to Windows Azure](Documentation/Deploying-Orchard-to-Windows-Azure)
-	* [Using Windows Azure Blob Storage](Documentation/Using-Windows-Azure-Blob-Storage)
-	* [Using Windows Azure Cache](Documentation/Using-Windows-Azure-Cache)
+    * [Using Windows Azure Blob Storage](Documentation/Using-Windows-Azure-Blob-Storage)
+    * [Using Windows Azure Cache](Documentation/Using-Windows-Azure-Cache)
     * [Running Orchard on Mono](Documentation/Running-Orchard-on-Mono)
     * [Setting Up a Multi-Tenant Orchard Site](Documentation/Setting-up-a-multi-tenant-Orchard-site)
     * [Setting Up a Machine Key](Documentation/Setting-up-a-machine-key)
